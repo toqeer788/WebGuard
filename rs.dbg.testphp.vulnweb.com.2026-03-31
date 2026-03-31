@@ -1,0 +1,57 @@
+DMitry - Passively Harvests Subdomains from the Domain.
+------------------------
+
+
+
+ASP.Net Misconfiguration - Checks for ASP.Net Misconfiguration.
+------------------------
+
+--2026-03-31 03:30:23--  http://testphp.vulnweb.com/%7C~.aspx
+Resolving testphp.vulnweb.com (testphp.vulnweb.com)... 44.228.249.3
+Connecting to testphp.vulnweb.com (testphp.vulnweb.com)|44.228.249.3|:80... 
+
+DNSEnum - Attempts Zone Transfer.
+------------------------
+
+
+
+The Harvester - Scans for emails using Google's passive search.
+------------------------
+
+Traceback (most recent call last):
+  File "/usr/bin/theHarvester", line 5, in <module>
+    from theHarvester.theHarvester import main
+  File "/usr/lib/python3/dist-packages/theHarvester/theHarvester.py", line 4, in <module>
+    from theHarvester import __main__
+  File "/usr/lib/python3/dist-packages/theHarvester/__main__.py", line 12, in <module>
+    import netaddr
+  File "/usr/lib/python3/dist-packages/netaddr/__init__.py", line 18, in <module>
+    from netaddr.core import (AddrConversionError, AddrFormatError,
+        NotRegisteredError, ZEROFILL, Z, INET_ATON, INET_PTON, P, NOHOST, N)
+  File "/usr/lib/python3/dist-packages/netaddr/core.py", line 11, in <module>
+    from netaddr.compat import _callable, _iter_dict_keys
+  File "/usr/lib/python3/dist-packages/netaddr/compat.py", line 91, in <module>
+    from importlib import resources as _importlib_resources
+  File "/usr/lib/python3.13/importlib/resources/__init__.py", line 10, in <module>
+    from ._common import (
+    ...<4 lines>...
+    )
+  File "/usr/lib/python3.13/importlib/resources/_common.py", line 2, in <module>
+    import pathlib
+  File "/usr/lib/python3.13/pathlib/__init__.py", line 9, in <module>
+    from ._local import *
+  File "/usr/lib/python3.13/pathlib/_local.py", line 16, in <module>
+    import grp
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 915, in _load_unlocked
+KeyboardInterrupt
+
+
+WordPress Checker - Checks for WordPress Installation.
+------------------------
+
+--2026-03-31 03:30:26--  http://testphp.vulnweb.com/wp-admin
+Resolving testphp.vulnweb.com (testphp.vulnweb.com)... 44.228.249.3
+Connecting to testphp.vulnweb.com (testphp.vulnweb.com)|44.228.249.3|:80... 
+
