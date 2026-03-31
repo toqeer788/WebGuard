@@ -1,4 +1,4 @@
-### Tool Deployment (on various OS flavours)
+### Tool Deployment
 **Ubuntu**
 - `apt-key update && apt-get update`
 - `apt-get install whois --force-yes`

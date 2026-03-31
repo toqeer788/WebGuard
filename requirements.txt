@@ -1,0 +1,9 @@
+requests
+colorama
+tqdm
+python-nmap
+dnspython
+urllib3
+beautifulsoup4
+lxml
+rich
